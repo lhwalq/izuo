@@ -58,9 +58,16 @@ const MainContent = ({ lang, locale }: { lang: string; locale: any }) => {
                             <MotionButton
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
+                                onClick={() => {
+                                    // 平滑滚动到 collection 区域
+                                    document.getElementById('collection')?.scrollIntoView({ 
+                                        behavior: 'smooth',
+                                        block: 'start'
+                                    });
+                                }}
                                 className="px-12 py-4 bg-[#333333] text-white 
-                                         hover:bg-black
-                                         transition-all duration-300 text-sm tracking-widest uppercase"
+                                        hover:bg-black
+                                        transition-all duration-300 text-sm tracking-widest uppercase"
                             >
                                 {locale.hero.cta}
                             </MotionButton>
