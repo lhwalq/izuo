@@ -5,12 +5,17 @@
 /* 基础样式重置和默认字体设置 */
 @layer base {
   html {
-    @apply bg-neutral-950 text-neutral-200;
+    @apply bg-white text-[#333333];
     font-feature-settings: "rlig" 1, "calt" 1;
   }
   
   body {
     @apply antialiased;
+  }
+
+  /* 标题样式 */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-wide text-[#333333];
   }
 }
 
@@ -23,24 +28,24 @@
 
   #mobile-menu {
     @apply transform translate-x-full transition-transform duration-500 ease-in-out
-           bg-neutral-950/95 backdrop-blur-md;
+           bg-white/95 backdrop-blur-sm;
   }
 
   /* 语言选择器样式 */
   .language-item {
-    @apply text-sm tracking-wide font-light
-           hover:text-white transition-colors duration-300
+    @apply text-xs tracking-wide font-light
+           hover:text-[#333333] transition-colors duration-300
            py-2 px-4 cursor-pointer
-           border-b border-neutral-800/50;
+           border-b border-[#EEEEEE];
   }
 
   .language-item.active {
-    @apply bg-neutral-900 text-white;
+    @apply bg-[#F5F5F5] text-[#333333];
   }
 
   /* 选中图标样式 */
   .check-icon {
-    @apply text-sm align-middle text-neutral-400;
+    @apply text-xs align-middle text-[#666666];
   }
 }
 
@@ -53,19 +58,19 @@
 
   /* 文本渐变效果 */
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 to-neutral-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#333333] to-[#666666];
   }
 
   /* 玻璃态效果 */
   .glass-effect {
-    @apply bg-neutral-900/70 backdrop-blur-md 
-           border border-neutral-800/50;
+    @apply bg-white/70 backdrop-blur-sm 
+           border border-[#EEEEEE];
   }
 
   /* 优雅的悬浮效果 */
   .hover-lift {
     @apply transition-transform duration-300 ease-out
-           hover:-translate-y-0.5 hover:brightness-110;
+           hover:-translate-y-0.5;
   }
 }
 
@@ -87,19 +92,19 @@
 
 /* 滚动条美化 */
 ::-webkit-scrollbar {
-  @apply w-1.5;
+  @apply w-1;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-neutral-900;
+  @apply bg-[#F5F5F5];
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-neutral-700 rounded-full
-         hover:bg-neutral-600 transition-colors;
+  @apply bg-[#DDDDDD] rounded-full
+         hover:bg-[#CCCCCC] transition-colors;
 }
 
 /* 文本选择效果 */
 ::selection {
-  @apply bg-neutral-800 text-white;
+  @apply bg-[#F5F5F5] text-[#333333];
 }
