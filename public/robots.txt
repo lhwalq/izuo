@@ -1,0 +1,15 @@
+# robots.txt
+UserManager-Agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /static/
+Disallow: /cdn-cgi/
+Disallow: /api
+Disallow: /api/
+Disallow: /api*
+Disallow: /*/api
+Disallow: /*/api/
+Disallow: /*/api*
+
+Sitemap: https://**/sitemap.xml
+

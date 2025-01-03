@@ -1,0 +1,146 @@
+{
+  "app_name": "IZUO",
+
+  "seo": {
+    "home_title": "IZUO - Leading Sustainable Luxury Fur Fashion | Elegant Lifestyle Aesthetics",
+    "home_description": "IZUO specializes in creating sustainable luxury fur fashion collections, combining innovative design with exquisite craftsmanship to deliver elegant lifestyle aesthetics, empowering every woman to radiate their unique charm.",
+    "home_canonical": "https://jpg2avif.com/en",
+
+    "terms_title": "About - IZUO",
+    "terms_description": "",
+    "terms_canonical": "https://jpg2avif.com/en/about",
+
+    "privacy_title": "Privacy Policy - IZUO",
+    "privacy_description": "",
+    "privacy_canonical": "https://jpg2avif.com/en/privacy_policy"
+  },
+
+  "header": {
+    "lang": "en",
+    "home": "Home",
+    "sign_in": "Sign In",
+
+    "logging_in_tip": "Start Your Journey",
+    "please_continue_by_logging_in": "Please continue by signing in",
+    "sign_up_with_google": "Sign up with Google",
+
+    "are_you_want_to_log_out": "Are you sure you want to log out?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+
+  "footer": {
+    "email_us": "Email Us",
+    "support": "Support",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Service",
+    "contact": "Address",
+    "copyright": "© 2025 All Rights Reserved.",
+    "address": "No. 3, Lane 468, Jianye Li, 480 Jianguo West Road, Xuhui District, Shanghai"
+  },
+
+  "privacy_policy": {
+    "one": "Privacy Policy",
+    "two": "Last Updated: March 2025",
+    "three": "IZUO is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your personal information, as well as the rights you have. By using our services, you trust us with your information. We take this trust seriously and implement all reasonable measures to protect your personal information.",
+    "five": "Information Collection and Use",
+    "six": "We collect and use information following the principle of minimal necessity. This information helps us provide better service experiences, including but not limited to: enhancing and personalizing your shopping experience, providing customer service, and sending important notifications. We commit to keeping your information strictly confidential and using it solely for improving our products and services.",
+    "seven": "Information Security",
+    "eight": "We employ strict data security measures, including encryption technologies and access controls, to prevent unauthorized access, use, or disclosure of your personal information. We regularly assess and update these security measures to ensure your information remains secure.",
+    "night": "Use of Cookies",
+    "ten": "We use cookies and similar technologies to provide, improve, protect, and promote our services. These technologies help us understand your preferences to provide a more personalized service experience. You can control cookie usage through your browser settings, though this may affect certain service functionalities.",
+    "eleven": "Third-Party Services",
+    "twelve": "Our services may include third-party services or links. These third parties have their own privacy policies, and we recommend reviewing them when using related services. We are not responsible for any third-party privacy practices or content.",
+    "thirteen": "Data Protection",
+    "fourteen": "We use industry-leading security technologies and procedures to protect your personal information from unauthorized access, use, or disclosure. Our employees and partners are bound by strict confidentiality obligations.",
+    "fifteen": "Your Rights",
+    "sixteen": "You have control over your personal information, including rights to access, correct, delete your personal information, and withdraw consent. If you need to exercise these rights, please contact us through the methods provided in this policy.",
+    "seventeen": "Protection of Minors",
+    "eighteen": "We take the protection of minors' personal information very seriously. If you are a minor, please use our services under the guidance of a guardian. If we discover that we have collected personal information from minors without verifiable parental consent, we will take steps to delete such information promptly.",
+    "nineteen": "Policy Updates",
+    "twenty": "We may update this Privacy Policy from time to time. When we make significant changes, we will post a notice in a prominent location on our website. Continued use of our services indicates your acceptance of the updated policy. We recommend reviewing this policy regularly to stay informed of any changes.",
+    "twenty_one": "Contact Us",
+    "twenty_two": "If you have any questions, comments, or suggestions regarding this Privacy Policy or our privacy practices, please feel free to contact us."
+  },
+
+  "terms_of_service": {
+    "one": "Terms of Service",
+    "two": "Last Updated: March 2025",
+    "three": "Welcome to IZUO's services. Please read these terms carefully, as they constitute a legally binding agreement between you and IZUO. By using our services, you agree to be bound by these terms.",
+    "four": "Service Description",
+    "five": "IZUO's services include but are not limited to: product display, online reservations, and customer service. We are committed to providing you with a high-quality service experience and reserve the right to adjust or optimize service content when necessary.",
+    "six": "User Responsibilities",
+    "seven": "When using our services, you agree to: provide true, accurate, and complete personal information; comply with all applicable laws and regulations; and refrain from any activities that may harm our or other users' rights. You are responsible for maintaining the security of your account information and all activities under your account.",
+    "eight": "Intellectual Property",
+    "nine": "All content of IZUO, including but not limited to text, images, logos, designs, and interfaces, is protected by intellectual property laws. You may not use, copy, or distribute this content in any way without our explicit written permission.",
+    "ten": "Disclaimer",
+    "eleven": "While we strive to provide quality services, we make no express or implied warranties about the suitability, reliability, timeliness, or security of our services. To the extent permitted by law, we are not liable for any direct or indirect losses resulting from the use or inability to use our services.",
+    "twelve": "Service Changes",
+    "thirteen": "We reserve the right to modify, suspend, or terminate services at any time. We will notify you of significant changes through appropriate means. Continued use of the services indicates your acceptance of such changes.",
+    "fourteen": "Service Termination",
+    "fifteen": "We may suspend or terminate your access to services if you violate these terms. You may also stop using our services at any time. Provisions relating to liabilities, intellectual property, and other relevant terms will continue to be effective after service termination.",
+    "sixteen": "Applicable Law",
+    "seventeen": "This agreement is governed by the laws of the People's Republic of China. Any disputes relating to this agreement shall be resolved through friendly negotiation; if negotiation fails, either party may file a lawsuit with the court having jurisdiction.",
+    "eighteen": "Terms Updates",
+    "nineteen": "We may update these terms from time to time. When we make significant changes, we will post a notice in a prominent location on our website. Continued use of our services indicates your acceptance of the modified terms. We recommend reviewing these terms regularly to stay informed of any changes."
+  },
+
+  "hero": {
+    "heading": "IZUO",
+    "subheading": "Heritage of Elegance, Innovation in Fashion",
+    "description": "Interpreting classics through innovative design, preserving elegance through exquisite craftsmanship",
+    "cta": "Explore Collections"
+  },
+  "brand": {
+    "title": "Brand Story",
+    "description": "Established in 2021, IZUO has quickly distinguished itself through its unique and innovative designs, specializing in comprehensive fur element collections. We are dedicated to creating a premium Chinese fashion brand that empowers everyone who chooses IZUO to embrace their inner confidence and charm.",
+    "vision": "In the rapidly evolving fashion industry, IZUO remains committed to innovative design as our core value and exceptional craftsmanship as our foundation, creating distinctive luxury fur collections. We believe true luxury extends beyond the product itself to encompass the pursuit of quality living and environmental responsibility."
+  },
+  "values": {
+    "title": "Brand Philosophy",
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "We firmly believe every woman deserves a sustainable wardrobe where each piece realizes its full potential. Every IZUO creation is meticulously designed to ensure lasting fashion value."
+    },
+    "innovation": {
+      "title": "Innovative Design",
+      "description": "Through unique design language and innovative craftsmanship, we create contemporary luxury fur pieces. We continuously explore new possibilities, perfectly blending traditional craftsmanship with modern aesthetics."
+    },
+    "quality": {
+      "title": "Artisanal Quality",
+      "description": "Selecting premium materials and employing masterful craftsmanship, we ensure each piece stands the test of time. Every stitch reflects our pursuit of perfection."
+    }
+  },
+  "features": {
+    "title": "Product Features",
+    "items": [
+      {
+        "title": "Premium Materials",
+        "description": "Carefully selecting top-tier fur materials globally to ensure each product meets the highest quality standards"
+      },
+      {
+        "title": "Innovative Craftsmanship",
+        "description": "Merging traditional techniques with modern technology to create unique fur processing methods"
+      },
+      {
+        "title": "Design Aesthetics",
+        "description": "Perfectly combining Eastern aesthetics with modern fashion to create a unique design language"
+      },
+      {
+        "title": "Comfort Experience",
+        "description": "Focusing on wearing comfort to ensure each piece delivers ultimate satisfaction"
+      }
+    ]
+  },
+  "collection": {
+    "title": "Curated Collections",
+    "description": "Each season, IZUO brings stunning designs that showcase a unique fashion perspective",
+    "categories": ["Luxury Fur", "Premium Essentials", "Accessories", "Limited Editions"]
+  },
+  "mission": {
+    "title": "Brand Mission",
+    "description": "IZUO is not just revolutionizing fashion, but conveying a lifestyle aesthetic. With an altruistic mindset, we remain committed to creating premium products, spreading positivity, and pursuing continuous innovation.",
+    "vision": "We look forward to collaborating with every quality-conscious woman to write their own chapter of elegance."
+  }
+
+}

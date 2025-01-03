@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基础样式重置和默认字体设置 */
+@layer base {
+  html {
+    @apply bg-neutral-950 text-neutral-200;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+/* 自定义组件样式 */
+@layer components {
+  /* 移动菜单动画 */
+  #menu-toggle:checked ~ #mobile-menu {
+    @apply translate-x-0;
+  }
+
+  #mobile-menu {
+    @apply transform translate-x-full transition-transform duration-500 ease-in-out
+           bg-neutral-950/95 backdrop-blur-md;
+  }
+
+  /* 语言选择器样式 */
+  .language-item {
+    @apply text-sm tracking-wide font-light
+           hover:text-white transition-colors duration-300
+           py-2 px-4 cursor-pointer
+           border-b border-neutral-800/50;
+  }
+
+  .language-item.active {
+    @apply bg-neutral-900 text-white;
+  }
+
+  /* 选中图标样式 */
+  .check-icon {
+    @apply text-sm align-middle text-neutral-400;
+  }
+}
+
+/* 自定义工具类 */
+@layer utilities {
+  /* 优雅的滚动效果 */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  /* 文本渐变效果 */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-neutral-200 to-neutral-400;
+  }
+
+  /* 玻璃态效果 */
+  .glass-effect {
+    @apply bg-neutral-900/70 backdrop-blur-md 
+           border border-neutral-800/50;
+  }
+
+  /* 优雅的悬浮效果 */
+  .hover-lift {
+    @apply transition-transform duration-300 ease-out
+           hover:-translate-y-0.5 hover:brightness-110;
+  }
+}
+
+/* 自定义动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  @apply w-1.5;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-700 rounded-full
+         hover:bg-neutral-600 transition-colors;
+}
+
+/* 文本选择效果 */
+::selection {
+  @apply bg-neutral-800 text-white;
+}
